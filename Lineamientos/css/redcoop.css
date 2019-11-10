@@ -1,0 +1,36 @@
+:root {
+    --primario: #072a66;  /* Es el color pricipal o dominante en el diseño */
+    --secundario: #333333;  /* Es el color subordinado en el diseño */
+    --acento: #1dbc5f;  /* Es el color complementario usado para resaltar */
+    --blanco: #ffffff;  /* Color de texto para el color de fondo suborninado */
+    --negro: #000000;  /* Define el tono de negro a usar */
+    --gris: #999999;  /* Define el tono de gris a usar */
+}
+
+
+.bg-primario {
+    background-color: var(--primario);
+}
+.bg-secundario {
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+.bg-acento {
+    background-color: var(--acento);
+    color: var(--blanco);
+}
+.bg-gris {
+    background-color: var(--gris);
+    color: var(--blanco);
+}
+.txt-blanco {
+    color: var(--blanco);
+}
+.txt-negro {
+    color: var(--negro);
+}
+
+/* Estilos auxiriares */
+.altura-200 {
+    height: 200px;
+}
