@@ -5,6 +5,8 @@
     --blanco: #ffffff;  /* Color de texto para el color de fondo suborninado */
     --negro: #000000;  /* Define el tono de negro a usar */
     --gris: #999999;  /* Define el tono de gris a usar */
+    --gris-claro: #e2e2e2;
+    --azul-fuerte: #000080;    
 }
 
 
@@ -13,21 +15,42 @@
 }
 .bg-secundario {
     background-color: var(--secundario);
-    color: var(--blanco);
 }
 .bg-acento {
     background-color: var(--acento);
-    color: var(--blanco);
 }
 .bg-gris {
     background-color: var(--gris);
-    color: var(--blanco);
+}
+.bg-gris-claro {
+    background-color: var(--gris-claro);
+}
+.bg-azul-fuerte {
+    background-color: var(--azul-fuerte);
 }
 .txt-blanco {
     color: var(--blanco);
 }
 .txt-negro {
     color: var(--negro);
+}
+.txt-primario {
+    color: var(--primario);
+}
+.txt-secundario {
+    color: var(--secundario);
+}
+.txt-acento {
+    color: var(--acento);
+}
+.txt-gris {
+    color: var(--gris);
+}
+.txt-gris-claro {
+    color: var(--gris-claro);
+}
+.txt-azul-fuerte {
+    color: var(--azul-fuerte);
 }
 
 /* Estilos auxiriares */
