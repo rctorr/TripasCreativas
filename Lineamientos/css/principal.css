@@ -57,3 +57,10 @@
 .altura-200 {
     height: 200px;
 }
+
+/* Estilos que modifican o sobre escriben estilos de Bootstrap */
+
+/* Para ajustar la altura de línea en los párrafos de los banners */
+.card-img-overlay p {
+    line-height: 1.2;
+}
