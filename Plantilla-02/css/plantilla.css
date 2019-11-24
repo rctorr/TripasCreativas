@@ -1,0 +1,24 @@
+/* Estilos Virtual Net */
+h3 {
+    font-family: 'Lemon', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Modificando estilos principal.css */
+.txt-blanco {
+    color: var(--blanco) !important;
+}
+.img-100 {
+    width: 100%;
+}
+.navbar a {
+    font-family: 'Lemon', cursive;
+}
+.seccion {
+    padding: 20px 16px;
+}
+
+/* Estilos de bootstrap */
